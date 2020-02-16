@@ -9,7 +9,7 @@
 }
 
 .container-2 .jumbotron {
-    background-color: rgba(0, 0, 0, .78);
+    background-color: rgba(0, 0, 0, .1);
     border: 3px solid rgba(0, 0, 0, .5);
     box-shadow: 4px 4px 9px rgba(0, 0, 0, .52);
     margin: auto;
