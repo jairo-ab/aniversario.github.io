@@ -29,6 +29,5 @@ p.drop-cap:first-letter {
 .jumbotron .row .container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    max-width: 100%;
+   
 }
