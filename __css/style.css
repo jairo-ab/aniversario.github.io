@@ -25,3 +25,12 @@ p.drop-cap:first-letter {
     margin-top: .15em;
     margin-right: .2em;
 }
+
+.jumbotron .row .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
