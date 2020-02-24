@@ -8,6 +8,28 @@ html{
     background-color:white;
 }
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ccc;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+}
+
+.status {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -300px 0 0 -450px;
+    background: url(../img/loader.gif) center no-repeat;
+}
+
 .container-2 .jumbotron {
     background-color: rgba(0, 0, 0, .1);
     border: 3px solid rgba(0, 0, 0, .5);
