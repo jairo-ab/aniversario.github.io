@@ -14,7 +14,7 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #800080;
+    background-color: #800080;
     z-index: 9999;
     height: 100%;
     width: 100%;
