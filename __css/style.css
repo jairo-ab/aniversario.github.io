@@ -3,14 +3,9 @@
     overflow: auto;
     height: 350px;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background: #2980b9;
-}
 
 html{
-    background-color:#2980b9;
+    background-color:#931925;
 }
 
 .status {
