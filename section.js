@@ -2,8 +2,8 @@
     document.getElementById("preloader").style.display = "none";
     document.getElementById("status").style.display = "block";
 });*/
-/*var intervalo = setInterval(function (){
+var intervalo = setInterval(function (){
     clearInterval(intervalo);
     document.getElementById("loading").style.display = "none";
     document.getElementById("status").style.display = "block";
-},3000);*/
+},3000);
