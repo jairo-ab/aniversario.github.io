@@ -8,7 +8,7 @@ html{
     background-color:#931925;
 }
 
-.status {
+/*.status {
     display: none;
 }
 
@@ -49,7 +49,7 @@ html{
 }
 .obj:nth-child(8){
     animation-delay: 0.7s;
-}  
+}  */
 
 .container-2 .jumbotron {
     background-color: rgba(0, 0, 0, .1);
@@ -78,7 +78,7 @@ p.drop-cap:first-letter {
     height: 100%;
 }
 
-@keyframes loading {
+/*@keyframes loading {
     0%{
       height: 0;
     }
@@ -88,5 +88,5 @@ p.drop-cap:first-letter {
     100%{
       height: 0;
     }
-  }
+  }*/
   
