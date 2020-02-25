@@ -7,3 +7,5 @@ var intervalo = setInterval(function () {
     document.getElementById("carregar").style.display = "none";
     document.getElementById("corpo").style.display = "block";
 }, 3000)
+
+

@@ -49,13 +49,13 @@
                             <a class="nav-link" href="#navbarSite">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#jornada">Jornada</a>
+                            <a class="nav-link" href="#section-jornada">Jornada</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#mudanca">Mudanças</a>
+                            <a class="nav-link" href="#section-mudanca">Mudanças</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Futuro</a>
+                            <a class="nav-link" href="#section-futuro">Futuro</a>
                         </li>
                     </ul>
                 </div>
@@ -156,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <h1 class="text-center font-italic text-success py-3 mt-3" id="jornada">Jornada</h1>
+            <h1 class="text-center font-italic text-success py-3 mt-3" id="section-jornada">Jornada</h1>
             <div class="card-deck col-sm">
                 <div class="card mt-2">
                     <img src="img/1.jpg" class="card-img-top" alt="Jairo Abreu">
@@ -186,7 +186,7 @@
             </div>
 
             <div class="jumbotron col-md-10 px-2 py-2 my-5">
-                <h1 class="text-center font-italic text-success py-3 mt-5" id="mudanca">Coisas que quero melhorar</h1>
+                <h1 class="text-center font-italic text-success py-3 mt-2" id="section-mudanca">Coisas que quero melhorar</h1>
                 <hr>
                 <h6 class="mt-2 mb-0">Carinho</h6>
                 <div class="progress">
@@ -220,7 +220,7 @@
             <div class="container-sm col-sm-12">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="display-4">Um video de carinho</h1>
+                        <h1 class="display-4" id="section-futuro">Um video de carinho</h1>
                         <p class="lead">E um pequeno texto para voçê.</p>
                         <hr>
                     </div>
@@ -289,15 +289,9 @@
             crossorigin="anonymous"></script>
         <script src="__js/smooth-scroll.min.js"></script>
         <script type="text/javascript">
-            /*$(window).on('load', function () {
-                document.getElementById("carregar").style.display = "none";
-                document.getElementById("corpo").style.display = "block";
-            });*/
-            /*var intervalo = setInterval(function () {
-                clearInterval(intervalo);
-                document.getElementById("carregar").style.display = "none";
-                document.getElementById("corpo").style.display = "block";
-            }, 3000)*/
+            $(function () {
+                var scroll = new SmoothScroll('a[href*="#section-"]');
+            });
         </script>
     </div>
 </body>
