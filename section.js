@@ -7,3 +7,7 @@ var intervalo = setInterval(function (){
     document.getElementById("loading").style.display = "none";
     document.getElementById("status").style.display = "block";
 },3000);
+
+$(function(){
+    var scroll = new SmoothScroll('a[href*="#section-"]');
+});
