@@ -25,6 +25,10 @@ html{
     background:#6f42c1 ;
 }
 
+.fundo {
+    background:#6f42c1;
+}
+
 .carregar{
     position: absolute;
     top: 50%;
