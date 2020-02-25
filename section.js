@@ -1,4 +1,4 @@
-$(window).on(load, function () {
+/*$(window).on(load, function () {
     document.getElementById("preloader").style.display = "none";
     document.getElementById("status").style.display = "block";
 });
