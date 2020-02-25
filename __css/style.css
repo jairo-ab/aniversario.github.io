@@ -62,7 +62,8 @@ html{
 }
 .obj:nth-child(8){
     animation-delay: 0.7s;
-}  
+} 
+
 
 .container-2 .jumbotron {
     background-color: rgba(0, 0, 0, .1);
