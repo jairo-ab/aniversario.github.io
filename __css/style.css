@@ -21,7 +21,7 @@ html{
     background: url(../img/loader.gif) 50% 50% no-repeat;
 }*/
 
-.loading{
+.carregar{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,7 +36,7 @@ html{
     background: white;
     margin: 0 3px;
     border-radius: 10px;
-    animation: loading 0.8s infinite;
+    animation: carregar 0.8s infinite;
 }
 .obj:nth-child(2){
     animation-delay: 0.1s;
@@ -87,7 +87,7 @@ p.drop-cap:first-letter {
     height: 100%;
 }
 
-@keyframes loading {
+@keyframes carregar {
     0%{
       height: 0;
     }
