@@ -29,6 +29,10 @@ html{
     background:#6f42c1;
 }
 
+.fa-heart {
+    color: red;
+}
+
 .carregar{
     position: absolute;
     top: 50%;
