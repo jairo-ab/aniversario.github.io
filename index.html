@@ -228,7 +228,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="container embed-responsive embed-responsive-16by9">
+                        <div class="container-1">
+                            <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="4IAhCth7Fyg"></div>
+                        </div>
+                        <!--<div class="container embed-responsive embed-responsive-16by9">
+
                             <div class="plyr__video-embed" id="player">
                                 <iframe
                                   src="https://www.youtube.com/embed/4IAhCth7Fyg?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
@@ -237,7 +241,7 @@
                                   allow="autoplay"
                                 ></iframe>
                               </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="col-sm-6 mt-3">
                         <p class="drop-cap text-justify">Você é o motivo do meu mais sincero sorriso, o motivo do brilho
@@ -291,6 +295,10 @@
                 document.getElementById("carregar").style.display = "none";
                 document.getElementById("corpo").style.display = "block";
             });
+        </script>
+        <script type="text/javascript">
+            const player = new Plyr('#player', {});
+            window.player = player;
         </script>
     </div>
 </body>
