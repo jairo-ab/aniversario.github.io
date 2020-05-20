@@ -229,27 +229,15 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="container embed-responsive embed-responsive-16by9">
-                            <video controls crossorigin playsinline
-                                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
-                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-                                    type="video/mp4" size="576">
-                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
-                                    type="video/mp4" size="720">
-                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
-                                    type="video/mp4" size="1080">
-
-                                <!-- Caption files -->
-                                <track kind="captions" label="English" srclang="en"
-                                    src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
-                                    default>
-                                <track kind="captions" label="Français" srclang="fr"
-                                    src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
-                                <!-- Fallback for browsers that don't support the <video> element -->
-                                <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-                                    download>Download</a>
-                            </video>
+                            <div class="plyr__video-embed" id="player">
+                                <iframe
+                                  src="https://www.youtube.com/embed/4IAhCth7Fyg?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                                  allowfullscreen
+                                  allowtransparency
+                                  allow="autoplay"
+                                ></iframe>
+                              </div>
                         </div>
-                        <!-- Plyr resources and browser polyfills are specified in the pen settings -->
                     </div>
                     <div class="col-sm-6 mt-3">
                         <p class="drop-cap text-justify">Você é o motivo do meu mais sincero sorriso, o motivo do brilho
